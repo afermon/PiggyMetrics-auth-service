@@ -1,7 +1,7 @@
 
 # Piggy Metrics (Kubernetes) - Auth service
 
-[![CircleCI](https://circleci.com/gh/afermon/PiggyMetrics-auth-service.svg?style=svg)](https://circleci.com/gh/afermon/PiggyMetrics-auth-service) [![codecov](https://codecov.io/gh/afermon/PiggyMetrics-auth-service/branch/master/graph/badge.svg)](https://codecov.io/gh/afermon/PiggyMetrics-auth-service) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/afermon/PiggyMetrics-auth-service/blob/master/LICENCE)
+[![CircleCI](https://circleci.com/gh/afermon/PiggyMetrics-auth-service.svg?style=svg)](https://circleci.com/gh/afermon/PiggyMetrics-auth-service) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/afermon/PiggyMetrics-auth-service/blob/master/LICENCE)
 
 Authorization responsibilities are completely extracted to separate server, which grants [OAuth2 tokens](https://tools.ietf.org/html/rfc6749) for the backend resource services. Auth Server is used for user authorization as well as for secure machine-to-machine communication inside a perimeter.
 
@@ -23,5 +23,6 @@ public List<DataPoint> getStatisticsByAccountName(@PathVariable String name) {
 
 For more information please refer to the main repository [afermon/PiggyMetrics-Kubernetes](https://github.com/afermon/PiggyMetrics-Kubernetes)
 
-## Refereces
+## Credits
+
 * Forked from [sqshq/PiggyMetrics](https://github.com/sqshq/PiggyMetrics)
